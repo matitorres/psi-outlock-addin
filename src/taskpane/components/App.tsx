@@ -163,10 +163,10 @@ export default class App extends React.Component<AppProps, AppState> {
         fetchClientFactory: MsalClientSetup({
           auth: {
             authority: "https://login.microsoftonline.com/raonasn.onmicrosoft.com",
-            clientId: "305f533e-8fcf-4461-94e9-bc088a69c7d7",
-            redirectUri: "https://raonasn.sharepoint.com/psi/SitePages/Home.aspx",
+            clientId: "",
+            redirectUri: "",
           },
-        }, ["https://raonasn.sharepoint.com/psi/.default"]),
+        }, [""]),
       },
     });
   }
